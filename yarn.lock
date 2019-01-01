@@ -4715,17 +4715,17 @@ libnpx@^10.2.0:
     y18n "^4.0.0"
     yargs "^11.0.0"
 
-lightstep-tracer@^0.20.13:
-  version "0.20.13"
-  resolved "https://registry.npmjs.org/lightstep-tracer/-/lightstep-tracer-0.20.13.tgz#7527e24a344f3fae6ea3e46f5fdcd8105e6fab6d"
-  integrity sha512-bwcMK62y8RxmK96+zp2wlHeq+PYQZFjvlBQKPk3VfcHUlp20g8oSkYeJ8/b42MYpNA2j+w7dgkOV8AJgHw7siA==
+lightstep-tracer@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.npmjs.org/lightstep-tracer/-/lightstep-tracer-0.21.0.tgz#7c04b6d2da44d67a2b0e04fe0883e76d56a5386b"
+  integrity sha512-c5gAi937ac7hR5HIZiqAh+iXTfVLJblUYzJOvJZi8wSub1F656EcNbQn/shpAgSYArnl/tEw8IbrLb/eJd1Yzw==
   dependencies:
     async "1.5.0"
     eventemitter3 "1.1.1"
     google-protobuf "3.6.1"
     hex2dec "1.0.1"
     source-map-support "0.3.3"
-    thrift "0.10.0"
+    thrift "0.11.0"
 
 load-json-file@^4.0.0:
   version "4.0.0"
@@ -5384,6 +5384,11 @@ node-gyp@^3.8.0:
     semver "~5.3.0"
     tar "^2.0.0"
     which "1"
+
+node-int64@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
+  integrity sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs=
 
 node-int64@~0.3.0:
   version "0.3.3"
@@ -7022,7 +7027,7 @@ q@1.0.x:
   resolved "https://registry.npmjs.org/q/-/q-1.0.1.tgz#11872aeedee89268110b10a718448ffb10112a14"
   integrity sha1-EYcq7t7okmgRCxCnGESP+xARKhQ=
 
-q@^1.1.2, q@^1.5.1:
+q@^1.1.2, q@^1.5.0, q@^1.5.1:
   version "1.5.1"
   resolved "https://registry.npmjs.org/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
@@ -8359,6 +8364,15 @@ thrift@0.10.0:
     q "1.0.x"
     ws "~0.4.32"
 
+thrift@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.npmjs.org/thrift/-/thrift-0.11.0.tgz#256115e4ff87871e12537f4b510bd2b425e13990"
+  integrity sha1-JWEV5P+Hhx4SU39LUQvStCXhOZA=
+  dependencies:
+    node-int64 "^0.4.0"
+    q "^1.5.0"
+    ws ">= 2.2.3"
+
 through2@^2.0.0, through2@^2.0.2, through2@~2.0.0, through2@~2.0.3:
   version "2.0.5"
   resolved "https://registry.npmjs.org/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -9016,6 +9030,13 @@ write-file-atomic@^2.0.0, write-file-atomic@^2.3.0:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
+
+"ws@>= 2.2.3":
+  version "6.1.2"
+  resolved "https://registry.npmjs.org/ws/-/ws-6.1.2.tgz#3cc7462e98792f0ac679424148903ded3b9c3ad8"
+  integrity sha512-rfUqzvz0WxmSXtJpPMX2EeASXabOrSMk1ruMOV3JBTBjo4ac2lDjGGsbQSyxj8Odhw5fBib8ZKEjDNvgouNKYw==
+  dependencies:
+    async-limiter "~1.0.0"
 
 ws@^5.1.1:
   version "5.2.2"
