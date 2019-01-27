@@ -926,7 +926,7 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-10.12.6.tgz#7fc213c1b811c90fc9a3edb6206742b95d697678"
   integrity sha512-+ZWB5Ec1iki99xQFzBlivlKxSZQ+fuUKBott8StBOnLN4dWbRHlgdg1XknpW6g0tweniN5DcOqA64CJyOUPSAw==
 
-"@types/node@10.12.18", "@types/node@^10.12.6":
+"@types/node@10.12.18", "@types/node@^10.12.18", "@types/node@^10.12.6":
   version "10.12.18"
   resolved "https://registry.npmjs.org/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
   integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
@@ -4461,7 +4461,7 @@ is-retry-allowed@^1.0.0:
   resolved "https://registry.npmjs.org/is-retry-allowed/-/is-retry-allowed-1.1.0.tgz#11a060568b67339444033d0125a61a20d564fb34"
   integrity sha1-EaBgVotnM5REAz0BJaYaINVk+zQ=
 
-is-stream@^1.0.0, is-stream@^1.1.0:
+is-stream@1.1.0, is-stream@^1.0.0, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -4563,11 +4563,13 @@ issue-parser@^3.0.0:
     lodash.uniqby "^4.7.0"
 
 ix@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/ix/-/ix-2.3.5.tgz#8f1f221d420e248833009601ca49d4fae3d794c9"
-  integrity sha512-mdW2LtQiy+gPtggKa393EdSaI46RARsAa5zjlLgNKMlE57vC6dc6g6nehROI1Gj/HhsTvpb3WALSwg0EWhhz0Q==
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/ix/-/ix-2.5.1.tgz#d755b52594fb619641573f423af101756e98b962"
+  integrity sha512-YPX759NbhmIynoCYsxcpKBCQDFkeVup4xGaAylnIRaM+md7qrLyoW7kow0iqx4cJr8PUG85/cfwfjylqehg8bQ==
   dependencies:
-    tslib "^1.8.0"
+    "@types/node" "^10.12.18"
+    is-stream "1.1.0"
+    tslib "^1.9.3"
 
 java-properties@^0.2.9:
   version "0.2.10"
@@ -8689,7 +8691,7 @@ trim-right@^1.0.1:
   resolved "https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
