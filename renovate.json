@@ -3,6 +3,8 @@
   "extends": ["github>sourcegraph/renovate-config"],
   "rangeStrategy": "lockfile-update",
   "semanticCommits": false,
+  "includeForks": true,
+  "prHourlyLimit": 0,
   "docker": {
     "enabled": true,
     "pinDigests": true
